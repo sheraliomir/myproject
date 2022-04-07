@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: url(https://images.unsplash.com/photo-1603456190216-c7c2c7997e64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGFyayUyMGNhbWVyYXxlbnwwfHwwfHw%3D&w=1000&q=80);
+    font-family: Courier New, monospace;
+    color: white;
+}
+
+h1{
+    
+   text-align: center;
+   margin-top: 150px;
+   
+
+}
+
+.move{
+    animation-duration: 2s;
+    animation-name: slidein;
+    
+    text-align: center;
+    font-size: larger;
+   
+    
+}
+.var{
+    
+    text-align: center;
+    font-size: large;
+
+}
+.f{
+    display: inline-block;
+    width: 900px;
+    margin-left: 170px;
+    margin-top: 350px;
+    
+   
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

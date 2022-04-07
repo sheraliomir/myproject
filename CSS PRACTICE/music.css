@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: url(https://t3.ftcdn.net/jpg/04/51/17/56/360_F_451175664_hGK9S6kW4MRKEj7lr2D7nqlftwVD6siS.jpg);
+  font-family: Courier New, monospace;
+  color: white;
+}
+.music {
+  margin-top: 200px;
+  display: inline-block;
+    width: 900px;
+    margin-left: 170px;
+    margin-top: 350px;
+    
+}
+.music p{
+    font-weight: 100;
+    font-size: large;
+}
+.guit{
+    animation-duration: 1s;
+   animation-name: slidein;
+
+    
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 100%;
+      width: 100%;
+    }
+  }
+.guit ul{
+    font-size: large;
+}
